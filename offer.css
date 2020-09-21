@@ -1,0 +1,86 @@
+.inf #holi {
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+.inf #list {
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  left: 50px;
+}
+
+.inf ul {
+  margin-top: 10px;
+  position: relative;
+  left: 70px;
+}
+
+.inf ul li {
+  font-family: "Barlow", sans-serif;
+}
+
+.contact #valid {
+  position: relative;
+  bottom: 20px;
+  padding: 0px 20px;
+}
+
+tr {
+  width: 500px;
+  position: relative;
+}
+.contact table th {
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 20px 170px;
+}
+
+.contact table td {
+  font-family: "Barlow", sans-serif;
+  padding: 10px 80px;
+  position: relative;
+  bottom: 40px;
+}
+.booknow {
+  position: relative;
+  right: 50px;
+}
+.more .carousel-cell img {
+  position: relative;
+  top: 20px;
+  height: 290px;
+  width: 530px;
+}
+.more .carousel-cell {
+  width: 40%;
+  margin-right: 10px;
+}
+.carousel-cell .more-info h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  top: 20px;
+}
+a {
+  cursor: pointer;
+}
+
+@media all and (max-width: 860px) and (min-width: 260px) {
+  #holi {
+    font-size: 390%;
+  }
+
+  #list {
+    font-size: 390%;
+  }
+
+  li {
+    font-size: 290%;
+    width: 1000px;
+  }
+
+  #valid {
+    font-size: 390%;
+    width: 1000px;
+  }
+}

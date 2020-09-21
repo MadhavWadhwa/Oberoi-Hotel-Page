@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="experience1.css" />
+    <script
+      src="https://kit.fontawesome.com/ba724881a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3scss/4/w3.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Dancing+Script:wght@600&family=Kalam:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div id="menu" class="nav">
+        <span id="close" onclick="closemenu()">
+          <i class="fas fa-times" id="cross"></i>
+        </span>
+
+        <a href="#" class="active">Website Home</a>
+        <a href="#">Oberoi One</a>
+        <a href="#">Destinations</a>
+        <a href="alloffers.html">Special Offers</a>
+        <a href="allexperiences.html">Experiences</a>
+        <a href="#">Gift Card</a>
+        <a href="#">Gallery</a>
+        <a href="#">Awards</a>
+        <a href="#">COVID19 Update</a>
+        <a href="#">Immunity building Dishes</a>
+        <a href="#">News</a>
+        <a href="#">About Us</a>
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <div class="covid">
+        <div class="leftco">
+          <li><a href="#">COVID19 Update</a></li>
+        </div>
+        <div class="rightco">
+          <li><a href="#">Immunity Building Dishes</a></li>
+        </div>
+      </div>
+
+      <div class="realnav">
+        <ul class="nav-list">
+          <li><i class="fas fa-bars" onclick="openmenu()" id="open"></i></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="allexperiences.html">Experiences</a></li>
+          <li><a href="alloffers.html">Special Offers</a></li>
+        </ul>
+        <a href="index.html"><img
+            src="https://www.thehindubusinessline.com/incoming/epo0je/article26643855.ece/ALTERNATES/LANDSCAPE_1200/oberoi-hotelspng"
+            alt=""
+          /></a>
+        <div class="rightnav">
+          <ul>
+            <li><a href="#"> Contact Us</a></li>
+            <li><a href="#"> Oberoi One</a></li>
+            <li><i class="fas fa-search"></i></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <a href="allexperiences.html" id="allexpi"><h5 id="allexp"><i class="fas fa-chevron-left"></i>ALL EXPERIENCES</h5></a>
+    <h1 id="fb">A Dance Paradise </h1>
+    <label id="share" for=""><i class="fas fa-share-alt"></i> Share</label>
+    <div class="exp1">
+      <img src="https://nateshwar.files.wordpress.com/2016/05/1041-1.jpg" alt="" />
+      <div class="inf">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magnam
+          debitis minima velit illo? Magnam, itaque voluptas, sit non libero
+          corporis quidem expedita minima officiis ratione numquam cumque optio
+          eius obcaecati blanditiis nihil. Harum ab exercitationem quasi
+          expedita accusamus deserunt, inventore accusantium, numquam similique
+          consectetur a aspernatur voluptate, fugit nisi est vero aliquam
+          repudiandae in repellat ut? Deserunt, eveniet! Fugiat similique culpa
+          delectus saepe. Omnis laudantium unde magni natus commodi laboriosam
+          labore, repudiandae cum debitis, accusamus, ipsa quidem dicta iste.
+        </p>
+
+        <div class="dur">
+          <b>Duration</b>
+          <span>1 hour</span>
+        </div>
+        <div class="price">
+          <b>Price</b>
+          <span>INR 2000 per session, for up to two guests</span>
+        </div>
+      </div>
+    </div>
+    <div class="tables">
+      <div class="contact">
+        <label for="" class="heading"> <p>Contact Us</p> </label>
+
+        <div class="table-info">
+          <table>
+            <tr>
+              <th>E-mail</th>
+              <th>Phone No.</th>
+            </tr>
+            <tr>
+              <td>concierge.tosv@oberoihotels.com</td>
+              <td>+91-1602720000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="booknow">
+        <label for="" class="heading"> <p>Book Your Stay</p> </label>
+
+        <table border="1px">
+          <tr>
+            <td colspan="2">
+              <b id="city">New Chandigarh</b>
+              <p id="hotelname">
+                The Oberoi Sukhvilas Spa Resort
+                <i class="fas fa-chevron-down"></i>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="small">Check In</p>
+              <p><label class="bold">14 </label><label>Sep 2020</label></p>
+            </td>
+            <td>
+              <p class="small">Check Out</p>
+              <p><label class="bold">15 </label><label>Sep 2020</label></p>
+            </td>
+          </tr>
+          <tr>
+            <td id="two">
+              <p>
+                <label class="bold">01 </label><label>Room</label>
+                <i class="fas fa-chevron-down"></i>
+              </p>
+            </td>
+            <td id="two">
+              <p>
+                <label class="bold">02 </label><label>Guests</label>
+                <i class="fas fa-chevron-down"></i>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <div class="btn">
+          <button>View Availability</button>
+          <i class="fas fa-plus-circle"></i>
+        </div>
+      </div>
+    </div>
+    <div class="more">
+        <h2 id="more-exp">More Experiences</h2>
+        <div
+          class="carousel"
+          data-flickity='{ "wrapAround" : "true", "autoplay" : "true", "cellAlign" : "left" }'
+        >
+          <div class="carousel-cell">
+            <img src="./images/photo-1563561686990-f0ef5b3e0b7c.jpeg" alt="" />
+            <div class="more-info">
+              <h2>Private Helicopter Tour of Amritsar</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+                ratione molestias ea dolorum dolores.
+              </p>
+              <a href="experience4.html"
+                ><label class="exp"
+                  >EXPLORE <i class="fas fa-chevron-right"></i></label
+              ></a>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/maxresdefault.jpg" alt="" />
+            <div class="more-info">
+              <h2>Children's Play Area</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+                ratione molestias ea dolorum dolores.
+              </p>
+              <a href="experience5.html"
+                ><label class="exp"
+                  >EXPLORE <i class="fas fa-chevron-right"></i></label
+              ></a>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/Dhaba-Style-Chicken-Curry-3.jpg" alt="" />
+            <div class="more-info">
+              <h2>Flavours of Punjab</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+                ratione molestias ea dolorum dolores.
+              </p>
+              <a href="experince6.html"
+                ><label class="exp"
+                  >EXPLORE <i class="fas fa-chevron-right"></i></label
+              ></a>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/Colin-Glen-987.jpg" alt="" />
+            <div class="more-info">
+              <h2>Archery</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+                ratione molestias ea dolorum dolores.
+              </p>
+              <a href="experience7.html"
+                ><label class="exp"
+                  >EXPLORE <i class="fas fa-chevron-right"></i></label
+              ></a>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <img src="./images/download.jpeg" alt="" />
+            <div class="more-info">
+              <h2>Mountain Biking, Siswan Forest</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+                ratione molestias ea dolorum dolores.
+              </p>
+              <a
+                ><label class="exp"
+                  >EXPLORE <i class="fas fa-chevron-right"></i></label
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="footer">
+      <div class="footer-container">
+       <div class="column">
+         <ul>
+           <li id= "heading">About Us</li>
+           <li>Our Story</li>
+           <li>Careers</li>
+           <li>Contact Us</li>
+           <li>Oberoi Center of Learning and Development</li>
+         </ul>
+       </div>
+
+       <div class="column">
+         <ul>
+           <li id="heading">News</li>
+             <li>Press Room</li>
+             <li>News and Media</li>
+             <li>The Oberoi Magazine</li>
+         </ul>
+       </div>
+
+       <div class="column">
+        <ul>
+          <li id="heading">More</li>
+            <li>Social Responsibility</li>
+            <li>Oberoi Aviation</li>
+            <li>Gift Card</li>
+            <li>Tariff</li>
+            <li>Oberoi Connections</li>
+            <div class="social">
+            
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+       </div>
+       <div class="column">
+        <ul>
+          <li id="heading">Subscribe</li>
+        </ul>
+        <div class="subs">
+        <h5>Discover the latest stories and inspirations from our world, right in your inbox.
+
+        </h5>
+
+        <input type="email" placeholder="Enter e-mail address">
+
+        <p>Submit <i class="fas fa-chevron-right"></i></p>
+
+        <ul>
+          <li>
+            Manage Reservations
+          </li>
+        </ul>
+        </div>
+      </div>
+      </div>
+      <p id="footleft">@ 2020 Oberoi Hotels & Resorts</p>
+      <p id="footright">Privacy Policy | Terms and Conditions | Sitemap</p>
+    </div>
+  </body>
+  <script>
+    function openmenu() {
+      document.getElementById("menu").style.width = "650px";
+      document.getElementById("open").style.visibility = "hidden";
+    }
+    function closemenu() {
+      document.getElementById("menu").style.width = "0px";
+      document.getElementById("open").style.visibility = "visible";
+    }
+  </script>
+</html>

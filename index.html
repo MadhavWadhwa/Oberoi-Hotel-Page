@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ba724881a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Dancing+Script:wght@600&family=Kalam:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div id="menu" class="nav">
+        <span id="close" onclick="closemenu()">
+          <i class="fas fa-times" id="cross"></i>
+        </span>
+
+        <a href="#" class="active">Website Home</a>
+        <a href="#">Oberoi One</a>
+        <a href="#">Destinations</a>
+        <a href="alloffers.html">Special Offers</a>
+        <a href="allexperiences.html">Experiences</a>
+        <a href="#">Gift Card</a>
+        <a href="#">Gallery</a>
+        <a href="#">Awards</a>
+        <a href="#">COVID19 Update</a>
+        <a href="#">Immunity building Dishes</a>
+        <a href="#">News</a>
+        <a href="#">About Us</a>
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <div class="covid">
+        <div class="leftco">
+          <li><a href="#">COVID19 Update</a></li>
+        </div>
+        <div class="rightco">
+          <li><a href="#">Immunity Building Dishes</a></li>
+        </div>
+      </div>
+
+      <div class="realnav">
+        <ul class="nav-list">
+          <li><i class="fas fa-bars" onclick="openmenu()" id="open"></i></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="allexperiences.html">Experiences</a></li>
+          <li><a href="alloffers.html">Special Offers</a></li>
+        </ul>
+        <a href="index.html"
+          ><img
+            src="https://www.thehindubusinessline.com/incoming/epo0je/article26643855.ece/ALTERNATES/LANDSCAPE_1200/oberoi-hotelspng"
+            alt=""
+        /></a>
+        <div class="rightnav">
+          <ul>
+            <li><a href="#"> Contact Us</a></li>
+            <li><a href="#"> Oberoi One</a></li>
+            <li><i class="fas fa-search"></i></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <div class="image">
+        <img src="./images/main-banner-desktop-new.jpg" alt="" />
+        <h2 id="img-text">Good Morning. Welcome To Oberoi</h2>
+      </div>
+
+      <div class="intro">
+        <div class="points">
+          <h2>Introducing Oberoi One</h2>
+          <div class="motto">
+            <h3>Our Distinctive <span>Guest Recognition</span> Program</h3>
+            <p>
+              Enjoy savings on stays and dining, premium WiFi and more benefits.
+            </p>
+          </div>
+          <button>JOIN NOW</button>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="options">
+        <h1>What stirs the traveller in you?</h1>
+        <p>
+          An idyllic beach on a faraway island? Shopping for rare treasures in
+          an ancient city?</p> <p>A picnic in the Himalayas? A leisurely cruise on the
+          Nile or a jungle adventure?</p>
+        </p>
+
+        <div
+          class="carousel"
+          data-flickity='{ "wrapAround" : "true", "autoplay" : "true" }'
+        >
+          <div class="carousel-cell">
+            <img
+              src="https://www.oberoihotels.com/-/media/oberoi-hotels/Home-Detail/udaivilas.png"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Agra </label> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio at sint similique itaque minima asperiores? Praesentium vel atque doloremque error eaque sapiente.</span>
+             <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+             <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+          </div>
+          </div>
+          <div class="carousel-cell">
+            <img
+              src="https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/the-oberoi-mumbai/travel-information/spotlight/mumbai-mobile.jpg"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Mumbai </label><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem minima doloremque facere nobis laborum dolorum non dicta eius itaque repellendus!</span>
+            <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+            <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+          </div>
+          </div>
+          <div class="carousel-cell">
+            <img
+              src="https://www.traveliteindia.com/uimages/hotel/hotelslider/image/2816.jpg"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Delhi </label><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus atque optio exercitationem at magni quia provident. Adipisci, illum. Expedita .</span>
+            <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+            <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+          </div>
+          </div>
+          <div class="carousel-cell">
+            <img
+              src="https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/The-Oberoi-Dubai/overview/spa-slider/dubai-pool-1039x561.jpg"
+              alt=""
+            />
+            <div class="info">
+              <label for="" class="hotelname">The Oberoi, Udaipur </label><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis optio, dolores reprehenderit aut pariatur inventore autem, quaerat expedita</span>
+              <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+              <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <img
+              src="https://cf.bstatic.com/images/hotel/max1024x768/143/143526140.jpg"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Dubai </label><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse, amet non doloribus accusantium ipsam, at nam dolore cupiditate atque quo, voluptas officiis!</span>
+            <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+            <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+          </div>
+        </div>
+          <div class="carousel-cell">
+            <img
+              src="https://cf.bstatic.com/images/hotel/max1024x768/445/44522456.jpg"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Bangalore </label><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi amet earum? Inventore voluptate exercitationem ut neque officiis.</span>
+            <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+            <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+          </div>
+        </div>
+          <div class="carousel-cell">
+            <img
+              src="https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/The-Oberoi-New-Delhi/Destination/overview/akshardham-temple-.jpg"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Kolkata </label><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi amet earum? Inventore voluptate exercitationem ut neque officiis.</span>
+            <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+            <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+          </div>
+          </div>
+          <div class="carousel-cell">
+            <img
+              src="https://static01.nyt.com/images/2016/01/17/travel/17QA2/17QA2-superJumbo.jpg"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Mauritis </label><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem corporis, consectetur quidem pariatur aspernatur quasi ipsam nisi explicabo. Consequatur illo.</span>
+            <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+            <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label> 
+          </div>
+          </div>
+          <div class="carousel-cell">
+            <img
+              src="https://i1.wp.com/theluxurytravelexpert.com/wp-content/uploads/2020/07/oberoi-hotels.jpg?fit=678%2C382&ssl=1"
+              alt=""
+            />
+            <div class="info">
+            <label class="hotelname">The Oberoi, Shimla </label><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione suscipit nisi inventore nulla aut labore cum saepe aliquid? Qui, ducimus!</span>
+            <label class="exp">EXPLORE <i class="fas fa-chevron-right"></i></label>
+            <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+          </div>
+          </div>
+
+        </div>
+      </div>
+<br>
+<br>
+<br>
+<br>
+
+      <div class="exp-options">
+        <h1>Experiences that linger, often forever.</h1>
+        <p>A barbeque under the stars? </p> 
+        <p>A trek through a tropical paradise?</p>
+       <a href="allexperiences.html"><label id="all">VIEW ALL EXPERIENCES<i class="fas fa-chevron-right"></i></label></a>
+        <div
+        class="carousel"
+        data-flickity='{ "wrapAround" : "true", "autoplay" : "true", "cellAlign" : "left" }'
+      >
+  <div class="carousel-cell">
+    <img src="https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/the-oberoi-gurgaon/overview/overview-banners/1920-x-819-new.jpg" alt="">
+         <div class="desc">
+           <h1>Dine Under The Stars</h1>
+        <p>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus qui, sit in reprehenderit placeat laboriosam expedita at itaque eaque. Consequatur eligendi nisi, quam minus soluta, quaerat voluptates accusantium eum quisquam amet at, velit magnam. Molestiae, repellendus? In, dolorum hic! Natus error necessitatibus labore et dolorem rerum deserunt tempore, ducimus soluta saepe recusandae, magni facilis voluptate quaerat.</p>
+         <label><a href="experience2.html">EXPLORE<i class="fas fa-chevron-right"></i></a></label>
+          </div>
+  </div>
+  <div class="carousel-cell">
+    <img src="https://nateshwar.files.wordpress.com/2016/05/1041-1.jpg" alt="">
+    <div class="desc">
+      <h1>A Dance Paradise</h1>
+   <p>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus qui, sit in reprehenderit placeat laboriosam expedita at itaque eaque. Consequatur eligendi nisi, quam minus soluta, quaerat voluptates accusantium eum quisquam amet at, velit magnam. Molestiae, repellendus? In, dolorum hic! Natus error necessitatibus labore et dolorem rerum deserunt tempore, ducimus soluta saepe recusandae, magni facilis voluptate quaerat.</p>
+    <label><a href="experience3.html">EXPLORE<i class="fas fa-chevron-right"></i></a></label>
+     </div>
+    
+  </div>
+  <div class="carousel-cell">
+    <img src="./images/1000_1535290608.jpg" alt="">
+     <div class="desc">
+       <h1>Forest Bathing</h1>
+    <p>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus qui, sit in reprehenderit placeat laboriosam expedita at itaque eaque. Consequatur eligendi nisi, quam minus soluta, quaerat voluptates accusantium eum quisquam amet at, velit magnam. Molestiae, repellendus? In, dolorum hic! Natus error necessitatibus labore et dolorem rerum deserunt tempore, ducimus soluta saepe recusandae, magni facilis voluptate quaerat voluptas quia suscipit! Hic?</p>
+     <label><a href="experience1.html"> EXPLORE<i class="fas fa-chevron-right"></i></a></label>
+      </div>
+  </div>
+     
+      </div>
+      </div>
+<br>
+<br>
+<br>
+<br>
+
+      <div class="offers">
+        <h1><i>May</i> we offer a little persuasion?</h1>
+        <p>A few tempting reasons that might allow us to welcome you soon. </p> 
+        <p id="viewoff">VIEW ALL OFFERS <i class="fas fa-chevron-right"></i></p>
+        <div
+        class="carousel"
+        data-flickity='{ "wrapAround" : "true", "autoplay" : "true", "cellAlign" : "left" }'
+      >
+        <div class="carousel-cell">
+          <img
+            src="https://www.oberoihotels.com/-/media/oberoi-hotels/Home-Detail/udaivilas.png"
+            alt=""
+          />
+          <div class="offer-info">
+          <h3>EXOTIC VACATIONS</h3>
+          <h2>Treat yourself to a holiday of lifetime</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ratione molestias ea dolorum dolores.</p>
+           <label class="exp"><a href="offer1.html">EXPLORE <i class="fas fa-chevron-right"></i></a></label>
+           <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+        </div>
+        </div>
+        <div class="carousel-cell">
+          <img
+            src="https://pix10.agoda.net/hotelImages/6796265/0/05705d603d3381cf7d314ad75e308869.jpg?s=1024x768"
+            alt=""
+          />
+          <div class="offer-info">
+          <h3>CAMP @ OBEROI</h3>
+          <h2>Time for a change of scene</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eveniet accusantium maxime sed quia?</p>
+           <label class="exp"><a href="offer2.html">EXPLORE <i class="fas fa-chevron-right"></i></a></label>
+           <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+        </div>
+        </div>
+        <div class="carousel-cell">
+          <img
+            src="https://www.oberoihotels.com/-/media/oberoi-hotels/Home-Detail/sahl-hasheesh.png"
+            alt=""
+          />
+          <div class="offer-info">
+          <h3>UNFORGETTABLE HOLIDAYS</h3>
+          <h2>Exceptional locations. Enduring memories</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ratione molestias ea dolorum dolo.</p>
+           <label class="exp"><a href="offer3.html">EXPLORE <i class="fas fa-chevron-right"></i></a></label>
+           <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+        </div>
+        </div>
+        <div class="carousel-cell">
+          <img
+            src="https://static01.nyt.com/images/2016/01/17/travel/17QA2/17QA2-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+            alt=""
+          />
+          <div class="offer-info">
+          <h3>WEEKEND ESCAPES</h3>
+          <h2>The perfect escape from a busy schedule</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ratione molestias ea dolorum dolores.</p>
+           <label class="exp"><a href="offer4.html">EXPLORE <i class="fas fa-chevron-right"></i></a></label>
+           <label class="book">BOOK NOW <i class="fas fa-chevron-right"></i></label>
+        </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+<div class="magz">
+  <h3>THE OBEROI MAGAZINE</h3>
+  <h2>Stories to inspire new journeys</h2>
+  <p class="view">VIEW ALL STORIES <i class="fas fa-chevron-right"></i></p>
+  <div
+  class="carousel"
+  data-flickity='{ "wrapAround" : "true", "cellAlign" : "left" }'
+>
+  <div class="carousel-cell">
+
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/a5/ce/b0/guest-room.jpg" alt="">
+    <div class="magz-info">
+      <h3>LIFESTYLE</h3>
+      <h2>500 Years of Da Vinci</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora delectus reprehenderit laborum soluta mollitia ipsa deleniti. Mollitia.</p>
+    </div>
+    </div>
+    <div class="carousel-cell">
+
+      <img src="https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/oberoi-magazines/autumn-2019/a-spiritual-detour/gallery/theoberoibeachresortlombok.jpg?w=390&hash=9ce7e165bd1f29b5ac9664af3d61b7a0" alt="">
+      <div class="magz-info">
+        <h3>LIFESTYLE</h3>
+        <h2>A Spiritual Detour</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora delectus reprehenderit laborum soluta mollitia ipsa deleniti. Mollitia.</p>
+      </div>
+      </div>
+      <div class="carousel-cell">
+
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=1067&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2015%2F07%2FWBTOPHOTELS0715-oberoi-udaivilas.jpg" alt="">
+        <div class="magz-info">
+          <h3>LIFESTYLE</h3>
+          <h2>Deur die bree street</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora delectus reprehenderit laborum soluta mollitia ipsa deleniti. Mollitia.</p>
+        </div>
+        </div>
+        <div class="carousel-cell">
+
+          <img src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/19/52/1952505.jpeg" alt="">
+          <div class="magz-info">
+            <h3>LIFESTYLE</h3>
+            <h2>Grand Escapade</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora delectus reprehenderit laborum soluta mollitia ipsa deleniti. Mollitia.</p>
+          </div>
+          </div>
+</div>
+
+
+    </div>
+<br>
+<br>
+
+    <div class="guests">
+        <h3>Oberoi by you</h3>
+       <p>Staying at the Oberoi as captured by our guests</p>
+       <p>Share your own experience with <label>#My Oberoi</label></p>
+       <p class="view">VIEW ALL <i class="fas fa-chevron-right"></i></p>
+       <div
+  class="carousel"
+  data-flickity='{ "wrapAround" : "true", "cellAlign" : "left" }'
+>
+<div class="carousel-cell">
+
+  <img src="https://cf.bstatic.com/images/hotel/max1024x768/147/147133899.jpg" alt="">
+  <b>@shouvikdas</b>
+</div>
+<div class="carousel-cell">
+
+  <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMzQ0NjQ4Ny9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTYyODI1MzY5NX0.TwqofJpuo5n3AKugXKVBEaX7A6I6DdUpYgY3bCHJXdE/img.png?width=980" alt="">
+  <b>@beast_yo</b>
+</div>
+<div class="carousel-cell">
+
+  <img src="https://i.ytimg.com/vi/lPFcn3HuOQ8/maxresdefault.jpg" alt="">
+  <b>@mortal_go</b>
+</div>
+<div class="carousel-cell">
+
+  <img src="https://static01.nyt.com/images/2010/04/21/business/21hotel01_span/21hotel01_span-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="">
+  <b>@aniketm</b>
+</div>
+<div class="carousel-cell">
+
+  <img src="https://www.destinasian.com/travel/wp-content/uploads/Deluxe-Room.jpg" alt="">
+  <b>@oberoi</b>
+</div>
+<div class="carousel-cell">
+
+  <img src="https://cdn.cnn.com/cnnnext/dam/assets/171122165337-ultimate-india-hotels---wildflower-hall-shimla-in-the-himalayas-an-oberoi-resort-full-169.jpg" alt="">
+  <b>@moudgil_yt</b>
+</div>
+<div class="carousel-cell">
+
+  <img src="https://www.travelplusstyle.com/wp-content/gallery/the-oberoi-mauritius/58642864-h1-the_oberoi_mauritius_-_spa.jpg" alt="">
+  <b>@gamexpro</b>
+</div>
+<div class="carousel-cell">
+
+  <img src="https://d2whcypojkzby.cloudfront.net/imageRepo/6/0/102/969/682/TOGN_Alfreco-view_from_the_top_S.jpg" alt="">
+  <b>@legend_mr</b>
+</div>
+    </div>
+    </div>
+<br>
+<br>
+<br>
+    <div class="reco">
+
+      <h1 id="rec">Recognition</h1>
+      <p id= "gue">For which we thank our guests and our people.</p>
+
+      <div class="comments">
+        <div class="aw1">
+          <h2>The Top 25 Hotel Brands in the World (Ranked 3rd)</h2>
+         <h4>2020</h4>
+         <p>Travel + Leisure USA World's Best Awards</p>
+        </div>
+        <div class="aw1">
+          <h2>Best Hotel Group in the World</h2>
+         <h4>2019</h4>
+         <p>Telegraph Travel Awards, UK</p>
+        </div>
+        <div class="aw1">
+          <h2>The Top 20 Hotel Brands in the World (Ranked 2nd)</h2>
+         <h4>2019</h4>
+         <p>Travel + Leisure World's Best Awards</p>
+        </div>
+        <div class="aw1">
+          <h2>Best Hotel Group in the World</h2>
+         <h4>2018</h4>
+         <p>Telegraph Travel Awards, UK</p>
+        </div> 
+      </div>
+    </div>
+
+      <div class="footer">
+      <div class="footer-container">
+       <div class="column">
+         <ul>
+           <li id= "heading">About Us</li>
+           <li>Our Story</li>
+           <li>Careers</li>
+           <li>Contact Us</li>
+           <li>Oberoi Center of Learning and Development</li>
+         </ul>
+       </div>
+
+       <div class="column">
+         <ul>
+           <li id="heading">News</li>
+             <li>Press Room</li>
+             <li>News and Media</li>
+             <li>The Oberoi Magazine</li>
+         </ul>
+       </div>
+
+       <div class="column">
+        <ul>
+          <li id="heading">More</li>
+            <li>Social Responsibility</li>
+            <li>Oberoi Aviation</li>
+            <li>Gift Card</li>
+            <li>Tariff</li>
+            <li>Oberoi Connections</li>
+            <div class="social">
+            
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+       </div>
+       <div class="column">
+        <ul>
+          <li id="heading">Subscribe</li>
+        </ul>
+        <div class="subs">
+        <h5>Discover the latest stories and inspirations from our world, right in your inbox.
+
+        </h5>
+
+        <input type="email" placeholder="Enter e-mail address">
+
+        <p>Submit <i class="fas fa-chevron-right"></i></p>
+
+        <ul>
+          <li>
+            Manage Reservations
+          </li>
+        </ul>
+        </div>
+      </div>
+      </div>
+      <p id="footleft">@ 2020 Oberoi Hotels & Resorts</p>
+      <p id="footright">Privacy Policy | Terms and Conditions | Sitemap</p>
+    </div>
+    </div>
+  </body>
+  <script>
+    function openmenu() {
+      document.getElementById("menu").style.width = "950px";
+      document.getElementById("open").style.visibility = "hidden";
+    }
+    function closemenu() {
+      document.getElementById("menu").style.width = "0px";
+      document.getElementById("open").style.visibility = "visible";
+    }
+  </script>
+</html>
