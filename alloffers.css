@@ -194,3 +194,704 @@ a {
   width: 100%;
   left: 50px;
 }
+
+@media all and (max-width: 1400px) and (min-width: 860px) {
+  .image img {
+    position: relative;
+    top: 10px;
+    width: 100%;
+  }
+  .options {
+    position: relative;
+    right: 50px;
+    top: 40px;
+  }
+  .options h1 {
+    font-size: 60px;
+  }
+  .options p {
+    font-size: 30px;
+  }
+  .first h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    width: 500px;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 34px;
+  }
+  #ex {
+    width: 400px;
+    font-size: 45px;
+  }
+
+  #des {
+    width: 300px;
+    font-size: 30px;
+  }
+  .first .exp {
+    font-size: 30px;
+  }
+
+  .featured img {
+    height: 400px;
+    width: 600px;
+    margin-left: 130px;
+  }
+
+  .second h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .more-info {
+    width: 450px;
+  }
+  .more-info h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+    margin-left: 130px;
+  }
+  .more-info p {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  a {
+    color: skyblue;
+    text-decoration: none;
+  }
+  .more-info .exp {
+    color: skyblue;
+    position: relative;
+    margin-right: 10px;
+    bottom: 40px;
+    margin-left: 130px;
+    cursor: pointer;
+  }
+
+  .featured {
+    display: flex;
+  }
+  .second {
+    margin-top: 90px;
+    position: relative;
+  }
+  .second img {
+    height: 180px;
+    width: 300px;
+  }
+  .seconddiv {
+    display: flex;
+    margin-bottom: -15px;
+  }
+  .second .more-info h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    position: relative;
+    width: 400px;
+    right: 100px;
+    bottom: 80px;
+  }
+
+  .second .more-info p {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    bottom: 30px;
+    width: 300px;
+    right: 100px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .second .more-info .exp {
+    color: skyblue;
+    position: relative;
+    margin-right: 10px;
+    bottom: 40px;
+    right: 100px;
+    font-size: 25px;
+  }
+
+  .do img {
+    height: 300px;
+    width: 420px;
+    margin-left: 120px;
+  }
+
+  .do p {
+    width: 400px;
+  }
+
+  .do {
+    width: 33.3%;
+  }
+  .do h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  .do h2 {
+    font-size: 34px;
+  }
+  .do .exp {
+    font-size: 26px;
+  }
+  .do p {
+    font-size: 27px;
+  }
+
+  .firstrow {
+    display: flex;
+  }
+  .teen {
+    position: relative;
+    left: 80px;
+  }
+  .teen img {
+    height: 300px;
+    width: 420px;
+  }
+  .teen h2 {
+    position: relative;
+    right: 100px;
+    font-size: 34px;
+  }
+  .teen h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .teen p {
+    width: 400px;
+    position: relative;
+    right: 100px;
+    font-size: 27px;
+  }
+
+  .teen .exp {
+    position: relative;
+    right: 100px;
+    font-size: 26px;
+  }
+  .fourth {
+    position: relative;
+    right: 10px;
+    width: 33.3%;
+  }
+  .fourth img {
+    height: 300px;
+    width: 420px;
+    position: relative;
+    left: 100px;
+  }
+  .fourth h2 {
+    position: relative;
+    right: 20px;
+    top: 8px;
+    font-size: 34px;
+  }
+  .fourth h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  .fourth p {
+    width: 340px;
+    position: relative;
+    right: 20px;
+    font-size: 27px;
+  }
+
+  .fourth .exp {
+    position: relative;
+    right: 20px;
+    font-size: 26px;
+  }
+
+  .footer {
+    position: relative;
+    width: 100%;
+    left: 50px;
+  }
+}
+
+@media all and (max-width: 859px) and (min-width: 490px) {
+  .image img {
+    position: relative;
+    top: 10px;
+    width: 136%;
+  }
+  .options {
+    position: relative;
+    right: 50px;
+    top: 40px;
+  }
+  .options h1 {
+    font-size: 90px;
+  }
+  .options p {
+    font-size: 50px;
+    width: 1800px;
+  }
+  .first {
+    margin-top: 50px;
+  }
+  .first h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    width: 1300px;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 72px;
+  }
+  #ex {
+    width: 260%;
+    font-size: 75px;
+  }
+
+  #des {
+    width: 1800px;
+    font-size: 50px;
+  }
+  .first .exp {
+    font-size: 30px;
+  }
+
+  .featured img {
+    width: 136%;
+    height: 800px;
+    margin-left: 50px;
+  }
+
+  .second h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 40px;
+  }
+
+  .more-info {
+    width: 450px;
+  }
+  .more-info h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+  }
+  .more-info p {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  a {
+    color: skyblue;
+    text-decoration: none;
+  }
+  .more-info .exp {
+    color: skyblue;
+    position: relative;
+    margin-right: 10px;
+    bottom: 40px;
+    margin-left: 130px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  .featured {
+    display: block;
+  }
+  .second {
+    margin-top: 90px;
+    position: relative;
+    margin-left: 50px;
+  }
+  .second img {
+    height: 800px;
+    width: 143%;
+  }
+  .seconddiv {
+    display: block;
+    margin-bottom: -15px;
+  }
+  .second .more-info h3 {
+    font-size: 75px;
+    width: 1800px;
+  }
+  .second .more-info {
+    margin-left: 140px;
+  }
+  .second .more-info h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 72px;
+    position: relative;
+    width: 1800px;
+    bottom: 80px;
+  }
+
+  .second .more-info p {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    bottom: 30px;
+    width: 1800px;
+    right: 100px;
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  .second .more-info .exp {
+    color: skyblue;
+    position: relative;
+    margin-right: 10px;
+    bottom: 40px;
+    right: 100px;
+    font-size: 55px;
+  }
+
+  .do img {
+    height: 300px;
+    width: 620px;
+    margin-left: 120px;
+  }
+
+  .do p {
+    width: 400px;
+  }
+
+  .do {
+    width: 33.3%;
+  }
+  .do h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 40px;
+    width: 500px;
+  }
+  .do h2 {
+    font-size: 44px;
+    width: 600px;
+  }
+  .do .exp {
+    font-size: 36px;
+  }
+  .do p {
+    font-size: 35px;
+    width: 700px;
+  }
+
+  .firstrow {
+    display: flex;
+  }
+  .teen {
+    position: relative;
+    left: 270px;
+  }
+  .teen img {
+    height: 300px;
+    width: 620px;
+  }
+  .teen h2 {
+    position: relative;
+    right: 100px;
+    font-size: 44px;
+    width: 600px;
+  }
+  .teen h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 40px;
+    width: 500px;
+  }
+
+  .teen p {
+    width: 400px;
+    position: relative;
+    right: 100px;
+    font-size: 36px;
+    width: 600px;
+  }
+
+  .teen .exp {
+    position: relative;
+    right: 100px;
+    font-size: 36px;
+  }
+  .fourth {
+    position: relative;
+    right: 10px;
+    left: 280px;
+    width: 33.3%;
+  }
+  .fourth img {
+    height: 300px;
+    width: 620px;
+    position: relative;
+    left: 100px;
+  }
+  .fourth h2 {
+    position: relative;
+    right: 20px;
+    top: 8px;
+    font-size: 44px;
+    width: 600px;
+  }
+  .fourth h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 40px;
+    width: 500px;
+  }
+  .fourth p {
+    width: 340px;
+    position: relative;
+    right: 20px;
+    font-size: 37px;
+    width: 600px;
+  }
+
+  .fourth .exp {
+    position: relative;
+    right: 20px;
+    font-size: 36px;
+  }
+
+  .footer {
+    position: relative;
+    width: 136%;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 489px) and (min-width: 200px) {
+  .navbar {
+    width: 100%;
+  }
+  .image img {
+    position: relative;
+    top: 10px;
+    width: 110%;
+  }
+  .options {
+    position: relative;
+    right: 50px;
+    top: 40px;
+  }
+  .options h1 {
+    font-size: 90px;
+  }
+  .options p {
+    font-size: 50px;
+    width: 1000px;
+  }
+  .first {
+    margin-top: 50px;
+  }
+  .first h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    width: 1000px;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 72px;
+  }
+  #ex {
+    width: 200%;
+    font-size: 75px;
+  }
+
+  #des {
+    width: 1000px;
+    font-size: 50px;
+  }
+  .first .exp {
+    font-size: 30px;
+  }
+
+  .featured img {
+    width: 110%;
+    height: 800px;
+    margin-left: 50px;
+  }
+
+  .second h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 40px;
+  }
+
+  .more-info {
+    width: 450px;
+  }
+  .more-info h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+  }
+  .more-info p {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  a {
+    color: skyblue;
+    text-decoration: none;
+  }
+  .more-info .exp {
+    color: skyblue;
+    position: relative;
+    margin-right: 10px;
+    bottom: 40px;
+    margin-left: 130px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  .featured {
+    display: block;
+  }
+  .second {
+    margin-top: 90px;
+    position: relative;
+    margin-left: 50px;
+  }
+  .second img {
+    height: 800px;
+    width: 110%;
+  }
+  .seconddiv {
+    display: block;
+    margin-bottom: -15px;
+  }
+  .second .more-info h3 {
+    font-size: 75px;
+    width: 1000px;
+  }
+  .second .more-info {
+    margin-left: 140px;
+  }
+  .second .more-info h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 72px;
+    position: relative;
+    width: 1000px;
+    bottom: 80px;
+  }
+
+  .second .more-info p {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    bottom: 30px;
+    width: 1000px;
+    right: 100px;
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  .second .more-info .exp {
+    color: skyblue;
+    position: relative;
+    margin-right: 10px;
+    bottom: 40px;
+    right: 100px;
+    font-size: 55px;
+  }
+
+  .do img {
+    height: 300px;
+    width: 620px;
+    margin-left: 120px;
+  }
+
+  .do p {
+    width: 400px;
+  }
+
+  .do {
+    width: 33.3%;
+  }
+  .do h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-size: 40px;
+    width: 500px;
+  }
+  .do h2 {
+    font-size: 44px;
+    width: 600px;
+  }
+  .do .exp {
+    font-size: 36px;
+  }
+  .do p {
+    font-size: 35px;
+    width: 700px;
+  }
+
+  .firstrow {
+    display: flex;
+  }
+  .teen {
+    position: relative;
+    left: 270px;
+  }
+  .teen img {
+    height: 300px;
+    width: 620px;
+  }
+  .teen h2 {
+    position: relative;
+    right: 100px;
+    font-size: 44px;
+    width: 600px;
+  }
+  .teen h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 40px;
+    width: 500px;
+  }
+
+  .teen p {
+    width: 400px;
+    position: relative;
+    right: 100px;
+    font-size: 36px;
+    width: 600px;
+  }
+
+  .teen .exp {
+    position: relative;
+    right: 100px;
+    font-size: 36px;
+  }
+  .fourth {
+    display: none;
+  }
+  .footer {
+    position: relative;
+    width: 110%;
+    font-size: 20px;
+  }
+}
