@@ -37,7 +37,7 @@
   width: 450px;
 }
 .more-info h2 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Archivo Narrow", sans-serif;
   font-size: 30px;
   position: relative;
   top: 20px;
@@ -82,7 +82,7 @@ a {
   margin-bottom: 25px;
 }
 .second .more-info h2 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Archivo Narrow", sans-serif;
   font-size: 25px;
   position: relative;
   width: 400px;
@@ -249,7 +249,7 @@ a {
     width: 450px;
   }
   .more-info h2 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Archivo Narrow", sans-serif;
     font-size: 30px;
     position: relative;
     top: 20px;
@@ -293,7 +293,7 @@ a {
     margin-bottom: -15px;
   }
   .second .more-info h2 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Archivo Narrow", sans-serif;
     font-size: 35px;
     position: relative;
     width: 400px;
@@ -430,7 +430,7 @@ a {
   .image img {
     position: relative;
     top: 10px;
-    width: 136%;
+    width: 147%;
   }
   .options {
     position: relative;
@@ -468,7 +468,7 @@ a {
   }
 
   .featured img {
-    width: 136%;
+    width: 147%;
     height: 800px;
     margin-left: 50px;
   }
@@ -484,7 +484,7 @@ a {
     width: 450px;
   }
   .more-info h2 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Archivo Narrow", sans-serif;
     font-size: 50px;
     position: relative;
     top: 20px;
@@ -522,7 +522,7 @@ a {
   }
   .second img {
     height: 800px;
-    width: 143%;
+    width: 153%;
   }
   .seconddiv {
     display: block;
@@ -536,7 +536,7 @@ a {
     margin-left: 140px;
   }
   .second .more-info h2 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Archivo Narrow", sans-serif;
     font-size: 72px;
     position: relative;
     width: 1800px;
@@ -673,8 +673,32 @@ a {
 
   .footer {
     position: relative;
-    width: 136%;
+    width: 147%;
     font-size: 20px;
+  }
+}
+
+@media all and (max-width: 650px) and (min-width: 490px) {
+  .image img {
+    position: relative;
+    top: 10px;
+    width: 130%;
+  }
+  .featured img {
+    width: 130%;
+    height: 800px;
+    margin-left: 50px;
+  }
+  .second img {
+    width: 136%;
+  }
+  .footer {
+    position: relative;
+    width: 130%;
+    font-size: 20px;
+  }
+  .fourth {
+    display: none;
   }
 }
 
@@ -684,8 +708,8 @@ a {
   }
   .image img {
     position: relative;
-    top: 10px;
-    width: 110%;
+    top: 60px;
+    width: 100%;
   }
   .options {
     position: relative;
@@ -723,7 +747,7 @@ a {
   }
 
   .featured img {
-    width: 110%;
+    width: 100%;
     height: 800px;
     margin-left: 50px;
   }
@@ -739,7 +763,7 @@ a {
     width: 450px;
   }
   .more-info h2 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Archivo Narrow", sans-serif;
     font-size: 50px;
     position: relative;
     top: 20px;
@@ -791,7 +815,7 @@ a {
     margin-left: 140px;
   }
   .second .more-info h2 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Archivo Narrow", sans-serif;
     font-size: 72px;
     position: relative;
     width: 1000px;
@@ -891,7 +915,7 @@ a {
   }
   .footer {
     position: relative;
-    width: 110%;
+    width: 100%;
     font-size: 20px;
   }
 }
